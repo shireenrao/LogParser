@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file '/Users/shireenrao/mydev/python/LogParser/logparser/ui/LogParser.ui'
 #
-# Created: Sun Jul 14 23:09:54 2013
+# Created: Mon Jul 15 07:01:04 2013
 #      by: PyQt4 UI code generator 4.10
 #
 # WARNING! All changes made in this file will be lost!
@@ -36,17 +36,17 @@ class Ui_MainWindow(object):
         self.gridLayout.addWidget(self.lblPath, 0, 0, 1, 1)
         self.horizontalLayout = QtGui.QHBoxLayout()
         self.horizontalLayout.setObjectName(_fromUtf8("horizontalLayout"))
-        self.lineEdit = QtGui.QLineEdit(self.centralWidget)
-        self.lineEdit.setObjectName(_fromUtf8("lineEdit"))
-        self.horizontalLayout.addWidget(self.lineEdit)
-        self.pushButton = QtGui.QPushButton(self.centralWidget)
-        self.pushButton.setObjectName(_fromUtf8("pushButton"))
-        self.horizontalLayout.addWidget(self.pushButton)
+        self.txtReToMatch = QtGui.QLineEdit(self.centralWidget)
+        self.txtReToMatch.setObjectName(_fromUtf8("txtReToMatch"))
+        self.horizontalLayout.addWidget(self.txtReToMatch)
+        self.btnParse = QtGui.QPushButton(self.centralWidget)
+        self.btnParse.setObjectName(_fromUtf8("btnParse"))
+        self.horizontalLayout.addWidget(self.btnParse)
         self.gridLayout.addLayout(self.horizontalLayout, 1, 0, 1, 1)
-        self.treeWidget = QtGui.QTreeWidget(self.centralWidget)
-        self.treeWidget.setObjectName(_fromUtf8("treeWidget"))
-        self.treeWidget.headerItem().setText(0, _fromUtf8("1"))
-        self.gridLayout.addWidget(self.treeWidget, 2, 0, 1, 1)
+        self.tvResult = QtGui.QTreeWidget(self.centralWidget)
+        self.tvResult.setObjectName(_fromUtf8("tvResult"))
+        self.tvResult.headerItem().setText(0, _fromUtf8("1"))
+        self.gridLayout.addWidget(self.tvResult, 2, 0, 1, 1)
         MainWindow.setCentralWidget(self.centralWidget)
         self.menuBar = QtGui.QMenuBar(MainWindow)
         self.menuBar.setGeometry(QtCore.QRect(0, 0, 800, 22))
@@ -76,7 +76,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow", None))
         self.lblPath.setText(_translate("MainWindow", "Please, load a log file", None))
-        self.pushButton.setText(_translate("MainWindow", "PushButton", None))
+        self.btnParse.setText(_translate("MainWindow", "Parse Log File", None))
         self.menuFile.setTitle(_translate("MainWindow", "File", None))
         self.menuHelp.setTitle(_translate("MainWindow", "Help", None))
         self.actionOpen_log_file.setText(_translate("MainWindow", "Open log file", None))

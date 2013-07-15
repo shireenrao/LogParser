@@ -25,19 +25,19 @@
     <item row="1" column="0">
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <widget class="QLineEdit" name="lineEdit"/>
+       <widget class="QLineEdit" name="txtReToMatch"/>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="btnParse">
         <property name="text">
-         <string>PushButton</string>
+         <string>Parse Log File</string>
         </property>
        </widget>
       </item>
      </layout>
     </item>
     <item row="2" column="0">
-     <widget class="QTreeWidget" name="treeWidget">
+     <widget class="QTreeWidget" name="tvResult">
       <column>
        <property name="text">
         <string notr="true">1</string>
