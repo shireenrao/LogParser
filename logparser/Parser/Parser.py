@@ -14,7 +14,7 @@ timeCol = 1
 
 class Parser:
     def __init__(self, filename):
-        self.filename = filename
+        self.fileName = filename
 
     def parseLogFile(self,  pattern):
         self.cleanStuff()

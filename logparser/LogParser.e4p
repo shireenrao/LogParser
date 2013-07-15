@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-4.6.dtd">
 <!-- eric4 project file for project LogParser -->
-<!-- Saved: 2013-07-14, 23:10:47 -->
+<!-- Saved: 2013-07-15, 07:48:54 -->
 <!-- Copyright (C) 2013 ,  -->
 <Project version="4.6">
   <Language>en</Language>
@@ -15,6 +15,10 @@
     <Source>__init__.py</Source>
     <Source>ui/__init__.py</Source>
     <Source>ui/Ui_LogParser.py</Source>
+    <Source>ui/MainWindow.py</Source>
+    <Source>Parser/__init__.py</Source>
+    <Source>Parser/Parser.py</Source>
+    <Source>main.py</Source>
   </Sources>
   <Forms>
     <Form>ui/LogParser.ui</Form>
@@ -27,6 +31,7 @@
   </Interfaces>
   <Others>
   </Others>
+  <MainScript>main.py</MainScript>
   <Vcs>
     <VcsType>None</VcsType>
   </Vcs>

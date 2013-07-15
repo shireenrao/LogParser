@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
-import Parser
+from PyQt4.QtGui import QMainWindow,  QFileDialog,  QTreeWidgetItem
+from PyQt4.QtCore import pyqtSignature,  QString
+
+from Ui_LogParser import Ui_MainWindow
+
+from Parser import Parser
 
 """
 Module implementing MainWindow.
@@ -27,7 +32,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         Slot documentation goes here.
         """
         self.tvResult.clear()
-        fName = self.lblpath.text()
+        fName = self.lblPath.text()
         pattern = self.txtReToMatch.displayText()
         parser = Parser.Parser(fName)
         parser.parseLogFile(pattern)

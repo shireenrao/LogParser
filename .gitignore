@@ -6,6 +6,7 @@
 
 .pydevproject
 .project
+.eric4project
 .metadata
 bin/**
 tmp/**
