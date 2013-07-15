@@ -63,12 +63,14 @@
     <addaction name="separator"/>
     <addaction name="actionOpen_log_file"/>
     <addaction name="separator"/>
+    <addaction name="actionQuit_1"/>
     <addaction name="actionQuit"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
      <string>Help</string>
     </property>
+    <addaction name="actionAbout_3"/>
     <addaction name="actionAbout"/>
    </widget>
    <addaction name="menuFile"/>
@@ -79,14 +81,34 @@
     <string>Open log file</string>
    </property>
   </action>
-  <action name="actionQuit">
+  <action name="actionQuit_1">
    <property name="text">
-    <string>Quit</string>
+    <string>Quit App</string>
+   </property>
+  </action>
+  <action name="actionAbout_3">
+   <property name="text">
+    <string>About Me</string>
+   </property>
+  </action>
+  <action name="actionSample">
+   <property name="text">
+    <string>Sample</string>
+   </property>
+  </action>
+  <action name="actionFinish">
+   <property name="text">
+    <string>Finish</string>
    </property>
   </action>
   <action name="actionAbout">
    <property name="text">
     <string>About</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
    </property>
   </action>
  </widget>

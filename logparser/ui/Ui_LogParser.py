@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file '/Users/shireenrao/mydev/python/LogParser/logparser/ui/LogParser.ui'
 #
-# Created: Mon Jul 15 07:01:04 2013
+# Created: Mon Jul 15 09:31:50 2013
 #      by: PyQt4 UI code generator 4.10
 #
 # WARNING! All changes made in this file will be lost!
@@ -58,14 +58,24 @@ class Ui_MainWindow(object):
         MainWindow.setMenuBar(self.menuBar)
         self.actionOpen_log_file = QtGui.QAction(MainWindow)
         self.actionOpen_log_file.setObjectName(_fromUtf8("actionOpen_log_file"))
-        self.actionQuit = QtGui.QAction(MainWindow)
-        self.actionQuit.setObjectName(_fromUtf8("actionQuit"))
+        self.actionQuit_1 = QtGui.QAction(MainWindow)
+        self.actionQuit_1.setObjectName(_fromUtf8("actionQuit_1"))
+        self.actionAbout_3 = QtGui.QAction(MainWindow)
+        self.actionAbout_3.setObjectName(_fromUtf8("actionAbout_3"))
+        self.actionSample = QtGui.QAction(MainWindow)
+        self.actionSample.setObjectName(_fromUtf8("actionSample"))
+        self.actionFinish = QtGui.QAction(MainWindow)
+        self.actionFinish.setObjectName(_fromUtf8("actionFinish"))
         self.actionAbout = QtGui.QAction(MainWindow)
         self.actionAbout.setObjectName(_fromUtf8("actionAbout"))
+        self.actionQuit = QtGui.QAction(MainWindow)
+        self.actionQuit.setObjectName(_fromUtf8("actionQuit"))
         self.menuFile.addSeparator()
         self.menuFile.addAction(self.actionOpen_log_file)
         self.menuFile.addSeparator()
+        self.menuFile.addAction(self.actionQuit_1)
         self.menuFile.addAction(self.actionQuit)
+        self.menuHelp.addAction(self.actionAbout_3)
         self.menuHelp.addAction(self.actionAbout)
         self.menuBar.addAction(self.menuFile.menuAction())
         self.menuBar.addAction(self.menuHelp.menuAction())
@@ -80,8 +90,12 @@ class Ui_MainWindow(object):
         self.menuFile.setTitle(_translate("MainWindow", "File", None))
         self.menuHelp.setTitle(_translate("MainWindow", "Help", None))
         self.actionOpen_log_file.setText(_translate("MainWindow", "Open log file", None))
-        self.actionQuit.setText(_translate("MainWindow", "Quit", None))
+        self.actionQuit_1.setText(_translate("MainWindow", "Quit App", None))
+        self.actionAbout_3.setText(_translate("MainWindow", "About Me", None))
+        self.actionSample.setText(_translate("MainWindow", "Sample", None))
+        self.actionFinish.setText(_translate("MainWindow", "Finish", None))
         self.actionAbout.setText(_translate("MainWindow", "About", None))
+        self.actionQuit.setText(_translate("MainWindow", "Quit", None))
 
 
 if __name__ == "__main__":

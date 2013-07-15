@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from PyQt4.QtGui import QMainWindow,  QFileDialog,  QTreeWidgetItem
+from PyQt4.QtGui import QMainWindow,  QFileDialog,  QTreeWidgetItem,  QMessageBox
 from PyQt4.QtCore import pyqtSignature,  QString
 
 from Ui_LogParser import Ui_MainWindow
